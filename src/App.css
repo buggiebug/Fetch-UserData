@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#container{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.switch{
+  padding: 10px 0px;
+  margin-bottom: 25px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.switch h3{
+  margin-left: 4%;
+}
+.switch button{
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 25%;
+  background-color: #5f68a0;
+  /* color: black; */
+  border: 1px solid black;
+}
+
+.switch button:hover{
+  background-color: #f0e9e9;
+  color: black;
+}
+
+#showData{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+#box{
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 400px) {
+  #box {
+    width: 70%;
+  }
+}
+
+#box p{
+  padding: 1px 0px;
+}
+
+#box img{
+  border-radius: 5px;
+}
+
+#nextPreviousBTN{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+#nextPreviousBTN button{
+  padding: 10px 20px;
+  margin: 0px 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nextPage button{
+  background-color: #04AA6D;
+  color: white;
+}
+
+.previousPage button{
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.nextPage button:hover,.previousPage button:hover {
+  background-color: #ddd;
+  color: black;
+}
